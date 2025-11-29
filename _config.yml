@@ -1,0 +1,17 @@
+# This file is used by GitHub Pages to configure how your site is built and served.
+# It helps resolve issues where HTML files are served as raw text (text/plain)
+# instead of being rendered by the browser.
+
+# We are using the default theme to leverage Jekyll's core functionality
+# without needing complex setup.
+theme: jekyll-theme-cayman
+
+# Explicitly exclude common source file formats that could interfere
+# with the rendering process if they are misinterpreted.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/
+
+# Force the site to rebuild with the correct configuration settings.
